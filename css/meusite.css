@@ -1,0 +1,53 @@
+.port{
+    text-align: center;
+    font-size: 120%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    box-shadow: 3px 1px 5px black;
+}
+
+.spotify{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 60px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.linkedin{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 1740px;
+    width: 60px;
+ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.instagram{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 900px;
+    width: 60px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.conteudo{
+    
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 30px;
+    margin-top: 45px;
+    margin-left: 90px;
+    margin-right: 90px;
+    box-shadow: 3px 2px 5px black;
+}
+.content{
+    padding-left: 45px;
+}

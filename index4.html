@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulário</title>
+	<link rel="stylesheet" type="text/css" href="css/styles4.css">
+</head>
+<body>
+    <h1>Formulário
+    </h1>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label>Nome:</label>
+            <input type="text" name ="nome" required><br>
+            <label>Endereço:</label>
+            <input type="text" name = "endereço"><br>
+            <label>Cidade:</label>
+            <input type="text" name = "cidade">
+            <label>Estado:</label><br><br>
+            <select>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Rio grande do Norte</option>
+                <option>Rio grande do Sul</option>
+                <option>Minas Gerais</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            <label>Natureza do Cargo</label><br>
+            <input type="radio" name="gerencia">
+            <label>Gerência</label>
+            <input type="radio" name="financ">
+            <label>Financeiro</label>
+            <input type="radio" name="recep">
+            <label>Recepção</label>
+            <input type="radio" name="adminis">
+            <label>Administração</label>
+            <input type="radio" name="jurid">
+            <label>Juridico</label>
+            <br>
+            <br>
+            <label>Área</label><br>
+            <input type="radio" name="comp">
+            <label>Computação</label>
+            <input type="radio" name="biologia">
+            <label>Biologia</label>
+            <input type="radio" name="meio ambiente">
+            <label>Meio Ambiente</label>
+            <input type="radio" name="engenharia">
+            <label>Engenharia</label>
+            <input type="radio" name="historia">
+            <label>História</label>
+            <br>
+            <label>Mini-Curriculo:</label>
+            <textarea cols="30" rows="10"></textarea><br>
+        </fieldset><br>
+            <input type="reset" name="limpar" value="Limpar" class="button">
+			<input type="submit" name="enviar" value="Cadastrar" class="button">
+    </form>
+</body>
+</html>

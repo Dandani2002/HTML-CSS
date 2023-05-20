@@ -1,0 +1,39 @@
+
+form{
+	background-color: #F5F5F5;
+	width: 50%;
+	margin: auto;
+}
+legend{
+	font-family: Verdana;
+	font-size: 20px;
+	font-style: bold;
+	color: #000080;
+}
+label{
+	font-family: Arial;
+	font-size: 15px;
+	color: #4169E1;
+}
+input{
+	width: 100%;	
+	margin-bottom: 15px;
+}
+.button{
+	margin-top: 15px;
+	width: 15%;
+	background-color: #1E90FF;
+}
+textarea{
+	width: 100%;
+}
+.radio_genero{
+	width: 5%;
+}
+.check_redes{
+	width: 5%;
+}
+select{
+	width: 50%;
+	margin-bottom: 15px;
+}

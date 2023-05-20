@@ -1,0 +1,23 @@
+
+table{
+	border: 0px solid black;
+	text-align: center;
+	color: black;
+
+}
+tr{	
+	background-color: #e9f8fa;
+}
+td,th{
+	border: 1px solid black;
+	text-align: center;
+	color: black;
+	font-size: 140%;
+
+}
+#DTMM{
+	background-color: #4ec3d5;
+	font-weight: bold;
+	
+}
+
